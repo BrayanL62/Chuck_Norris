@@ -14,6 +14,4 @@ btn.addEventListener("click", function() {
     document.querySelector("body").style.background = `rgb(${r},${g},${b})`;
     document.querySelector("#btn").style.background = `rgb(${r},${g},${b})`;
     document.querySelector("p").style.color = `rgb(${r},${g},${b})`;
-
-
 })
