@@ -1,13 +1,39 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container {
     width: 700px;
     height: 400px;
     border: 1px solid black;
     position: relative;
+    margin: 250px auto;
+    border-radius: 0.5rem;
 
+
+}
+
+.container__quote {
+    width: 500px;
+    height: 300px;
+    margin: 4rem auto;
+    line-height: 3rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.container__autor {
+    position: absolute;
+    bottom: 100px;
+    right: 80px;
 }
 
 #btn {
     position: absolute;
-    bottom: 30px;
-    right: 20px;
+    bottom: 40px;
+    right: 70px;
+    padding: 10px 15px;
+    border-radius: 0.2rem;
 }
